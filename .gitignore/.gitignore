@@ -1,7 +1,7 @@
 #hidden files
-.github
-.travis*
-.all-*
+*/.github
+*/.travis*
+*/.all-*
 
 # Logs
 logs
