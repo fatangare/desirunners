@@ -1,3 +1,8 @@
+#hidden files
+.github
+.travis*
+.all-*
+
 # Logs
 logs
 *.log
