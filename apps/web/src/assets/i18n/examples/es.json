@@ -1,0 +1,77 @@
+{
+  "dr.examples": "Ejemplos",
+  "dr.examples.menu.todos": "Recordatorios",
+  "dr.examples.menu.stocks": "Acciones",
+  "dr.examples.menu.theming": "Tematización",
+  "dr.examples.menu.auth": "Autenticación",
+  "dr.examples.todos.input": "Voy a ...",
+  "dr.examples.todos.tooltip.add": "Nuevo recordatorio",
+  "dr.examples.todos.tooltip.remove": "Eliminar completados",
+  "dr.examples.todos.list": "Lista de recordatorios",
+  "dr.examples.todos.example": "Ejemplo de recordatorio",
+  "dr.examples.todos.text1": "Este es un ejemplo clásico de",
+  "dr.examples.todos.text2": "recordatorio",
+  "dr.examples.todos.text3":
+    " con soporte para agregar, alternar, eliminar y filtrar los recordatorios pendientes.",
+  "dr.examples.todos.text4":
+    "El manejo del estado se implementa usando el módulo",
+  "dr.examples.todos.text5":
+    "y soporte para reductores de carga perezosa (este es un módulo de función de carga perezosa).",
+  "dr.examples.todos.text6":
+    "Los recordatorios son almacenados localmente, por lo que debería verlos en visitas posteriores cuando use el mismo navegador.",
+  "dr.examples.todos.filter.all": "Todos",
+  "dr.examples.todos.filter.done": "Hechos",
+  "dr.examples.todos.filter.active": "Activos",
+  "dr.examples.todos.filter.description": "Mostrando",
+  "dr.examples.todos.filter.items": "recordatorios",
+  "dr.examples.todos.filter.item": "recordatorio",
+  "dr.examples.todos.filter.one": "uno",
+  "dr.examples.todos.filter.none": "nada",
+  "dr.examples.todos.filter.notification": "Filtrado a",
+  "dr.examples.todos.remove.notification": "Hechos eliminados",
+  "dr.examples.todos.toggle.notification": "Alternadas de {{name}} a",
+  "dr.examples.todos.added.notification": "{{name}} agregado",
+  "dr.examples.todos.undo": "Deshacer",
+  "dr.examples.stocks.title": "Mercado de valores",
+  "dr.examples.stocks.symbol": "Símbolo de la acción",
+  "dr.examples.stocks.description":
+    "Proporcione algún símbolo válido del mercado de valores como por ejemplo:",
+  "dr.examples.stocks.text1":
+    "El ejemplo del mercado de valores muestra cómo implementar",
+  "dr.examples.stocks.text2": "para peticiones utilizando el módulo",
+  "dr.examples.stocks.text3": ".",
+  "dr.examples.stocks.text4":
+    "Cambiar por un símbolo diferente emitirá una acción que actualiza el estado con el indicador de carga (reductor) y desencadena el efecto para recuperar la acción seleccionada.",
+  "dr.examples.stocks.text5":
+    "Las acciones son rechazadas y cada solicitud posterior cancelará la anterior usando",
+  "dr.examples.stocks.text6":
+    "Las acciones exitosas o erróneas se emiten al completar la solicitud. Se quitó la ruedecilla de carga y se muestra información de la acción o mensaje de error.",
+  "dr.examples.stocks.error1": "Acción",
+  "dr.examples.stocks.error2": "no encontrada",
+  "dr.examples.theming.parent.title":
+    "Alcance del tema con componentes anidados",
+  "dr.examples.theming.parent.description": "el padre funciona!",
+  "dr.examples.theming.parent.text1":
+    "Los estilos de tema no se importan en la propiedad ",
+  "dr.examples.theming.parent.text2": "del decorador",
+  "dr.examples.theming.parent.text3":
+    "de los componentes, sino en el archivo",
+  "dr.examples.theming.parent.text4": ". Debido a eso, los estilos del tema",
+  "dr.examples.theming.parent.text5": "NO",
+  "dr.examples.theming.parent.text6":
+    " tienen un alcance automático para el componente.",
+  "dr.examples.theming.parent.text7": "Tenemos que utilizar selectores",
+  "dr.examples.theming.parent.text8": "específicos",
+  "dr.examples.theming.parent.text9":
+    "para evitar que los estilos se filtren en los componentes secundarios. Esto se puede lograr utilizando",
+  "dr.examples.theming.parent.text10":
+    "en las reglas CSS para mejorar su especificidad. Por ejemplo, eche un vistazo al tema de este componente:",
+  "dr.examples.theming.child.title": "h1 hijos",
+  "dr.examples.theming.child.subtitle": "deben estar ser sin estilo",
+  "dr.examples.theming.child.description": "el hijo funciona!",
+  "dr.examples.auth.title": "Componente autenticado",
+  "dr.examples.auth.description1":
+    "Este componente solo es accesible para usuarios autenticados",
+  "dr.examples.auth.description2":
+    "Cerrar la sesión causará que el usuario sea redirigido a la pantalla de inicio si se visita la ruta accesible solo para usuarios autenticados"
+}

@@ -1,0 +1,73 @@
+{
+  "dr.examples": "Exemplos",
+  "dr.examples.menu.forms": "Formulários",
+  "dr.examples.menu.todos": "Todos",
+  "dr.examples.menu.stocks": "Stocks",
+  "dr.examples.menu.theming": "Theming",
+  "dr.examples.menu.auth": "Auth",
+  "dr.examples.todos.input": "Eu vou fazer...",
+  "dr.examples.todos.tooltip.add": "Adicionar novo todo",
+  "dr.examples.todos.tooltip.remove": "Remover todos feitos",
+  "dr.examples.todos.list": "lista de todos",
+  "dr.examples.todos.example": "Todo example",
+  "dr.examples.todos.text1": "Este é um",
+  "dr.examples.todos.text2": "todo",
+  "dr.examples.todos.text3":
+    "clássico com suporte para adicionar, alternar, remover e filtrar os itens de tarefas.",
+  "dr.examples.todos.text4": "A manipulação de estado é implementada usando",
+  "dr.examples.todos.text5": "module",
+  "dr.examples.todos.text6":
+    "Todos são mantidos no local storage, portanto, você deve ver seus itens também em visitas posteriores ao usar o mesmo navegador.",
+  "dr.examples.todos.filter.all": "Todos",
+  "dr.examples.todos.filter.done": "Feito",
+  "dr.examples.todos.filter.active": "Ativos",
+  "dr.examples.todos.filter.description": "Mostrando",
+  "dr.examples.todos.filter.items": "todos",
+  "dr.examples.todos.filter.item": "todo",
+  "dr.examples.todos.filter.one": "único",
+  "dr.examples.todos.filter.none": "nenhum",
+  "dr.examples.todos.filter.notification": "Filtrado para",
+  "dr.examples.todos.remove.notification": "Removido tudo feito",
+  "dr.examples.todos.toggle.notification": "alternou de {{name}} para",
+  "dr.examples.todos.added.notification": "{{name}} adicionado",
+  "dr.examples.todos.undo": "Desfazer",
+  "dr.examples.stocks.title": "Mercado de Ações",
+  "dr.examples.stocks.symbol": "Simbolo",
+  "dr.examples.stocks.description":
+    "Por favor forneça um simbolo do mercado de ações válido como:",
+  "dr.examples.stocks.text1":
+    "O examplo de mercado de ações mostra como implementar",
+  "dr.examples.stocks.text2": "requests usando",
+  "dr.examples.stocks.text3": "module.",
+  "dr.examples.stocks.text4":
+    "A atualização da consulta de símbolo com símbolo diferente emitirá uma ação que atualiza o estado com o sinalizador de carregamento (handler) e aciona a Action para recuperar o estoque selecionado.",
+  "dr.examples.stocks.text5":
+    "As Actions são executadas e a cada request subsequente vai ser cancelada a anterior usando",
+  "dr.examples.stocks.text6":
+    "Actions com sucesso ou erro são emitidas no final da request. O Loading spinner é removido e a informação do item da bolsa ou mensagem de erro é mostrada.",
+  "dr.examples.stocks.error1": "Item",
+  "dr.examples.stocks.error2": "não encontrado",
+  "dr.examples.theming.parent.title": "Escopo de temas com nested components",
+  "dr.examples.theming.parent.description": "parent funcionou!",
+  "dr.examples.theming.parent.text1": "Theme styles não são importados nos",
+  "dr.examples.theming.parent.text2": "que é uma propriedade",
+  "dr.examples.theming.parent.text3": "decorator, mas no nosso arquivo",
+  "dr.examples.theming.parent.text4": ". Por conta disso, styles dos temas",
+  "dr.examples.theming.parent.text5": "Não",
+  "dr.examples.theming.parent.text6":
+    "sao incorporados ao component automaticamente.",
+  "dr.examples.theming.parent.text7": "Nos temos que usar",
+  "dr.examples.theming.parent.text8": "specific",
+  "dr.examples.theming.parent.text9":
+    "selectors para prever styles de leaking dentro de child components. Isto pode ser conseguido usando",
+  "dr.examples.theming.parent.text10":
+    "em regras de css para aumentar a sua especificidade.  Por exemplo olhe o arquivo de tema deste component:",
+  "dr.examples.theming.child.title": "childs h1",
+  "dr.examples.theming.child.subtitle": "precisa ser sem style",
+  "dr.examples.theming.child.description": "child funcionou!",
+  "dr.examples.auth.title": "Authenticated component",
+  "dr.examples.auth.description1":
+    "Este component é acessado apenas por usuarios autenticados",
+  "dr.examples.auth.description2":
+    "Dando logout vai causar redirecionamento do usuário para home screen se ele estiver visitando uma rota acessivel apenas para usuários autenticados"
+}

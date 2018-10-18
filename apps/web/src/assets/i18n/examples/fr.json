@@ -1,0 +1,115 @@
+{
+  "dr.examples": "Exemples",
+  "dr.examples.menu.todos": "Tâches",
+  "dr.examples.menu.stocks": "Stocks",
+  "dr.examples.menu.theming": "Theming",
+  "dr.examples.menu.crud": "CRUD",
+  "dr.examples.menu.auth": "Authentification",
+  "dr.examples.todos.input": "Je vais...",
+  "dr.examples.todos.tooltip.add": "Ajouter une nouvelle tâche",
+  "dr.examples.todos.tooltip.remove": "Supprimer les tâches terminées",
+  "dr.examples.todos.list": "Liste des tâches",
+  "dr.examples.todos.example": "Exemple de tâches",
+  "dr.examples.todos.text1": "Ceci est un exemple classique de",
+  "dr.examples.todos.text2": "tâches",
+  "dr.examples.todos.text3":
+    "avec prise en charge de l'ajout, du basculement, de la suppression et du filtrage des éléments à faire.",
+  "dr.examples.todos.text4":
+    "La gestion des états est implémentée à l'aide du module",
+  "dr.examples.todos.text5":
+    "et prend en charge les réducteurs chargés à la demande (il s'agit d'un module de fonctions chargé à la demande).",
+  "dr.examples.todos.text6":
+    "Toutes les tâches sont conservées dans le stockage local, vous devriez donc voir vos tâches lors de visites ultérieures lorsque vous utilisez le même navigateur.",
+  "dr.examples.todos.filter.all": "Toutes",
+  "dr.examples.todos.filter.done": "Terminées",
+  "dr.examples.todos.filter.active": "Actives",
+  "dr.examples.todos.filter.description": "Affiche",
+  "dr.examples.todos.filter.items": "tâches",
+  "dr.examples.todos.filter.item": "tâche",
+  "dr.examples.todos.filter.one": "un",
+  "dr.examples.todos.filter.none": "nul",
+  "dr.examples.todos.filter.notification": "Filtré à",
+  "dr.examples.todos.remove.notification": "Terminées tâches supprimées",
+  "dr.examples.todos.toggle.notification": "basculer {{name}} à",
+  "dr.examples.todos.added.notification": "{{name}} ajouté",
+  "dr.examples.todos.undo": "Annuler",
+  "dr.examples.stocks.title": "Bourse",
+  "dr.examples.stocks.symbol": "Symbole boursier",
+  "dr.examples.stocks.description":
+    "Veuillez fournir un symbole boursier valide tel que:",
+  "dr.examples.stocks.text1":
+    "L'exemple boursier montre comment implémenter les requêtes",
+  "dr.examples.stocks.text2": "à l'aide du module",
+  "dr.examples.stocks.text3": ".",
+  "dr.examples.stocks.text4":
+    "La mise à jour de la requête de symbole avec un symbole différent émet une action qui met à jour l'état avec l'indicateur de chargement (réducteur) et déclenche un effet pour la récupération du symbole boursier sélectionné.",
+  "dr.examples.stocks.text5":
+    "Les actions sont temporisées et chaque demande ultérieure annulera la précédente en utilisant",
+  "dr.examples.stocks.text6":
+    "Les actions de réussite ou d'erreur sont émises à la fin de la demande. Le chargement de spinner est supprimé et les informations stockées ou le message d'erreur s'affiche.",
+  "dr.examples.stocks.error1": "Symbole boursier",
+  "dr.examples.stocks.error2": "introuvable",
+  "dr.examples.theming.parent.title":
+    "Portée du thème avec des composants imbriqués",
+  "dr.examples.theming.parent.description": "Le parent fonctionne!",
+  "dr.examples.theming.parent.text1":
+    "Les styles de thème ne sont pas importés dans la propriété du composant",
+  "dr.examples.theming.parent.text2": "du décorateur",
+  "dr.examples.theming.parent.text3": "mais dans le fichier",
+  "dr.examples.theming.parent.text4":
+    "principal. De ce fait, les styles de thème ne sont",
+  "dr.examples.theming.parent.text5": "PAS",
+  "dr.examples.theming.parent.text6":
+    "automatiquement dans la portée du composant.",
+  "dr.examples.theming.parent.text7": "Nous devons utiliser des sélecteurs",
+  "dr.examples.theming.parent.text8": "spécifiques",
+  "dr.examples.theming.parent.text9":
+    "pour empêcher les styles de s'infiltrer dans les composants enfant. Cela peut être réalisé en utilisant",
+  "dr.examples.theming.parent.text10":
+    "dans les règles CSS pour améliorer leur spécificité. Par exemple, regardez le fichier de thème de ce composant:",
+  "dr.examples.theming.child.title": "enfant h1",
+  "dr.examples.theming.child.subtitle": "devrait être non stylé",
+  "dr.examples.theming.child.description": "L'enfant fonctionne!",
+  "dr.examples.crud.title":
+    "CRUD livres avec @ngrx/entity & @ngrx/router-store",
+  "dr.examples.crud.subtitle1": "Vos livres",
+  "dr.examples.crud.subtitle2": "Editeur de livre",
+  "dr.examples.crud.placeholder1": "Titre",
+  "dr.examples.crud.placeholder2": "Auteur",
+  "dr.examples.crud.placeholder3": "Description",
+  "dr.examples.crud.text":
+    "Les livres peuvent être gérés dans cet éditeur et sont ajoutés, mis à jour, supprimés et sélectionnés via ",
+  "dr.examples.crud.error": "est requis",
+  "dr.examples.crud.add": "Ajouter un nouveau livre",
+  "dr.examples.crud.new": "Nouveau",
+  "dr.examples.crud.save": "Sauver",
+  "dr.examples.form.title":
+    "Formulaire réactif avec un constructeur de formulaire",
+  "dr.examples.form.subtitle1": "Le formulaire",
+  "dr.examples.form.subtitle2": "informations commerciales",
+  "dr.examples.form.autosave": "Sauvegarde automatique",
+  "dr.examples.form.placeholder1": "Pseudo",
+  "dr.examples.form.placeholder2": "Mot de passe",
+  "dr.examples.form.placeholder3": "E-mail",
+  "dr.examples.form.placeholder4": "Description",
+  "dr.examples.form.placeholder5": "Date de naissance",
+  "dr.examples.form.error1": "est requis",
+  "dr.examples.form.error2": "doit être valide",
+  "dr.examples.form.error3": "doit être plus long que",
+  "dr.examples.form.error4": "doit être plus petit que",
+  "dr.examples.form.text1": "Solliciter un cadeau.",
+  "dr.examples.form.text2": "Évaluer ce formulaire:",
+  "dr.examples.form.text3":
+    "Vous devez solliciter un cadeau pour voir plus d'iformations.",
+  "dr.examples.form.text4": "Cadeau envoyé!",
+  "dr.examples.form.text5": "Pas de cadeau envoyé.",
+  "dr.examples.form.text6": "Clap",
+  "dr.examples.form.reset": "Réinitialiser",
+  "dr.examples.form.save": "Sauver",
+  "dr.examples.form.send": "Envoyer",
+  "dr.examples.auth.title": "Composant authentifié",
+  "dr.examples.auth.description1":
+    "Ce composant est uniquement accessible aux utilisateurs authentifiés",
+  "dr.examples.auth.description2":
+    "La déconnexion provoque la redirection de l'utilisateur vers l'écran d'accueil si la visite de la page n'est accessible qu'aux utilisateurs authentifiés"
+}

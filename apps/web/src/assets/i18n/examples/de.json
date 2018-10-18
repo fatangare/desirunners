@@ -1,0 +1,75 @@
+{
+  "dr.examples": "Beispiele",
+  "dr.examples.menu.todos": "Aufgabenliste",
+  "dr.examples.menu.stocks": "Börse",
+  "dr.examples.menu.theming": "Theming",
+  "dr.examples.menu.auth": "Auth.",
+  "dr.examples.todos.input": "Ich werde...",
+  "dr.examples.todos.tooltip.add": "Eine neue Aufgabe hinzufügen",
+  "dr.examples.todos.tooltip.remove": "Erledigte Aufgaben entfernen",
+  "dr.examples.todos.list": "Aufgabenliste",
+  "dr.examples.todos.example": "Aufgabenbeispiel",
+  "dr.examples.todos.text1": "Das ist eine klassische",
+  "dr.examples.todos.text2": "Aufgabenliste.",
+  "dr.examples.todos.text3":
+    "Beispiel zum Hinzufügen, Umschalten, Entfernen und Filtern einer Aufgabenliste.",
+  "dr.examples.todos.text4": "Die Statusbehandlung wir mithilfe von",
+  "dr.examples.todos.text5":
+    "Modulen und mit Unterstützung von Lazy Loaded Reducer implementiert (das ist ein Lazy Loaded Feature-Modul).",
+  "dr.examples.todos.text6":
+    "Aufgaben bleiben im lokalen Speicher erhalten, so dass du deine Aufgaben auch bei späteren Besuchen sehen solltest, ...vorausgesetzt du verwendest denselben Browser.",
+  "dr.examples.todos.filter.all": "Alle",
+  "dr.examples.todos.filter.done": "Erledigt",
+  "dr.examples.todos.filter.active": "Aktiv",
+  "dr.examples.todos.filter.description": "Anzeigen",
+  "dr.examples.todos.filter.items": "Aufgaben",
+  "dr.examples.todos.filter.item": "Aufgabe",
+  "dr.examples.todos.filter.one": "ein",
+  "dr.examples.todos.filter.none": "keiner",
+  "dr.examples.todos.filter.notification": "Gefiltert nach",
+  "dr.examples.todos.remove.notification": "Erledigt aufgaben entfernt",
+  "dr.examples.todos.toggle.notification": "Umschalten von {{name}} nach",
+  "dr.examples.todos.added.notification": "{{name}} hinzugefügt",
+  "dr.examples.todos.undo": "Undo",
+  "dr.examples.stocks.title": "Börse",
+  "dr.examples.stocks.symbol": "Aktiensymbol",
+  "dr.examples.stocks.description":
+    "Hier ist ein gültiges Aktiensymbol anzugeben:",
+  "dr.examples.stocks.text1": "Das Börsenbeispiel zeigt, wie",
+  "dr.examples.stocks.text2": "Aufrufe mithilfe eines",
+  "dr.examples.stocks.text3": "Modules implementiert werden.",
+  "dr.examples.stocks.text4":
+    "Durch die Aktualisierung der Symbolabfrage mit einem anderen Symbol wird eine Aktion ausgelöst, die den Status mit Ladekennzeichen (Reduzierer) aktualisiert und den Effekt zum Abrufen des ausgewählten Aktienbestands auslöst.",
+  "dr.examples.stocks.text5":
+    "Aktionen werden entprellt und jede nachfolgende Anfrage wird die Vorherige löschen",
+  "dr.examples.stocks.text6":
+    "Nach Abschluss des Aufrufs werden Erfolgs- oder Fehleraktionen ausgegeben. Das Lade-Spinner wird entfernt und die Aktieninfo oder die Fehlermeldung wird angezeigt.",
+  "dr.examples.stocks.error1": "Aktienbestand",
+  "dr.examples.stocks.error2": "nicht gefunden",
+  "dr.examples.theming.parent.title":
+    "Thema beschränken mit verschachtelten Komponenten",
+  "dr.examples.theming.parent.description": "Eltern funktionieren!",
+  "dr.examples.theming.parent.text1":
+    "Themenstile werden nicht in der Eigenschaft",
+  "dr.examples.theming.parent.text2": "des Dekorators",
+  "dr.examples.theming.parent.text3": "sondern in der Hauptdatei",
+  "dr.examples.theming.parent.text4":
+    "der Komponente importiert. Aus diesem Grund werden Designstile",
+  "dr.examples.theming.parent.text5": "NICHT",
+  "dr.examples.theming.parent.text6":
+    "automatisch auf die Komponente beschränkt.",
+  "dr.examples.theming.parent.text7": "Wir müssen",
+  "dr.examples.theming.parent.text8": "spezifische",
+  "dr.examples.theming.parent.text9":
+    "Selektoren verwenden um zu verhindern, dass Stile ins Kind gelangen. Dies kann durch Verwendung von",
+  "dr.examples.theming.parent.text10":
+    "in CSS-Regeln erreicht werden, um ihre Spezifität zu erhöhen. Schau dir zum Beispiel die Themendatei dieser Komponente an:",
+  "dr.examples.theming.child.title": "h1 des Kindes",
+  "dr.examples.theming.child.subtitle": "sollte ohne Stil sein",
+  "dr.examples.theming.child.description": "Kind funktioniert!",
+  "dr.examples.auth.title": "Authentifizierte Komponente",
+  "dr.examples.auth.description1":
+    "Diese Komponente ist nur für authentifizierte Benutzer zugänglich",
+  "dr.examples.auth.description2":
+    "Das Abmelden führt dazu, dass der Benutzer zum Startbildschirm weitergeleitet wird, wenn die Route nur für authentifizierte Benutzer zugänglich ist"
+}

@@ -1,0 +1,76 @@
+@import '../../styles-variables';
+
+.container {
+  margin-top: 0px;
+}
+
+.main-heading {
+  text-transform: uppercase;
+  margin: 20px 0 20px 0;
+  color: white;
+}
+
+mat-card {
+  margin: 0 0 20px 0;
+
+  mat-card-title {
+    position: relative;
+    font-size: 18px;
+  }
+  mat-card-subtitle {
+    min-height: 60px;
+    font-size: 12px;
+  }
+
+  .mat-cell {
+    font-size: 10px;
+  }
+  @media (max-width: map-get($grid-breakpoints, sm)) {
+    mat-card-subtitle {
+      min-height: auto;
+    }
+  }
+
+  a {
+    fa-icon {
+      position: relative;
+      bottom: 2px;
+      font-size: 16px;
+      margin: 6px;
+    }
+  }
+
+  a[mat-icon-button] {
+    position: relative;
+    left: 5px;
+  }
+}
+
+.mat-mini-fab {
+  width: 25px;
+  height: 25px;
+  line-height: 14px;
+  font-size: 14px;
+
+  &::ng-deep .mat-button-wrapper{
+      line-height: 14px;
+      padding: 0;
+
+       .mat-icon {
+           font-size: 14px;
+           padding-right: 4px;
+           padding-top: 4px;
+       }
+ }
+}
+
+.mat-expansion-panel-header-description, .mat-expansion-panel-header-title {
+  font-size: 12px;
+}
+td.mat-cell:first-of-type, td.mat-footer-cell:first-of-type, th.mat-header-cell:first-of-type {
+  padding-left: 5px;
+}
+
+td.mat-cell, td.mat-footer-cell, th.mat-header-cell {
+  text-align: center;
+}
